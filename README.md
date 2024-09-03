@@ -7,7 +7,7 @@ A convenient and fast way to implement paid services using the TonCoin cryptocur
 
 You can assemble the device yourself or ask me to do it for you. To order a ready-made device, contact me via Telegram or Skype: renat2985.
 
-<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/intro.png" width="400px">
+<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/intro.png">
 
 ### Main Features:
 
