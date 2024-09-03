@@ -1,4 +1,4 @@
-[Русская версия документации здесь](https://github.com/renat2985/toncoin_payment/blob/main/README_RU.md)
+[🇷🇺 Русская версия документации здесь](https://github.com/renat2985/toncoin_payment/blob/main/README_RU.md)
 
 
 # Payment for Your Services via TonCoin
