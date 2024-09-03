@@ -76,5 +76,6 @@ Download Release: [Win32](https://github.com/nodemcu/nodemcu-flasher/blob/master
 If you like this project, you can give me a cup of coffee :coffee:
 
 <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/bitcoin_donate.png" width="100px">
-<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/toncoin_donate.png" width="100px">
+<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/ton_donate.png" width="100px">
+
 - PayPal [https://www.paypal.me/RKevrels](https://www.paypal.me/RKevrels/5)
