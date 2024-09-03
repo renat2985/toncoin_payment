@@ -1,47 +1,52 @@
+# Payment for Your Services via TonCoin
 
-# Оплата ваших услуг через TonCoin
+[Русская версия документации](https://github.com/renat2985/toncoin_payment/raw/main/README_RU.md)
 
- Удобный и быстрый способ внедрения платных услуг с использованием криптовалюты TonCoin. Процесс простой: Вы открываете любой крипто кошелек, сканируете QR-код, переводите указанную сумму, и как только платеж будет получен, реле активируется и включит ваш прибор на заданное вами время. Это может быть любой прибор, от чайника, кофемашины и лампочки до включения электричества в помещение или любом другом месте.
+A convenient and fast way to implement paid services using the TonCoin cryptocurrency. The process is simple: You open any crypto wallet, scan the QR code, transfer the specified amount, and once the payment is received, the relay is activated and turns on your device for the time you set. This can be any device, from a kettle, coffee machine, and light bulb to powering a room or any other location.
 
-Вы можете собрать устройство самостоятельно или попросить это сделать меня для вас. Для заказа готового устройства свяжитесь через Telegram или Skype: renat2985.
+You can assemble the device yourself or ask me to do it for you. To order a ready-made device, contact me via Telegram or Skype: renat2985.
 
-### Основные функции:
+### Main Features:
 
-1. **Подключение устройства:**
-   - При первом включении или если устройство не может найти роутер, оно создаст точку доступа с именем "TonCoin payment".
-   - Подключитесь к этой точке (пароль не требуется) и откройте браузер, где введите http://192.168.4.1. Обычно после подключения к Wi-Fi автоматически откроется Activ portal, который перенаправит вас на нужную страницу.
-   - Нажмите "Configure WiFi" для настройки.
+1. **Connecting the Device:**
+   - On the first power-up or if the device cannot find the router, it will create an access point named "TonCoin payment."
+     
+     <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/WiFi.png" width="200px" style="float:left">
+   - Connect to this access point (no password required) and open a browser, where you enter http://192.168.4.1. Typically, after connecting to Wi-Fi, the Captive Portal will automatically open and redirect you to the required page.
+     
+     <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/AP1.png" width="300px" style="float:left">
+   - Click "Configure WiFi" to configure the settings.
 
-2. **Настройка устройства:**
-   - **Роутер и пароль:** Введите данные для подключения к вашему Wi-Fi.
-   - **Device Name:** Укажите имя устройства, например, "Buy coffee".
-   - **Your Toncoin Wallet:** Введите адрес вашего кошелька для приема платежей.
-   - **Сurrency:** Выберите валюту, в которой хотите получать оплату (EUR, USD, RUB, BYN, BGN, GBP и др.). Это необходимо для автоматической конвертации суммы в TonCoin на основе текущего курса, который обновляется каждые 3 часа через coinmarketcap.com.
-   - **Service Currency Price:** Укажите цену в выбранной валюте, которую клиент должен оплатить. После сканирования QR-кода клиенту будет предложена эквивалентная сумма в TonCoin.
-   - **Relay Work Time:** Укажите, на сколько секунд должно включиться реле. Это может быть от одной секунды (например, для имитации нажатия кнопки) до нескольких минут или часов.
+2. **Configuring the Device:**
+   - **Router and Password:** Enter the details to connect to your Wi-Fi.
+   - **Device Name:** Specify the name of the device, for example, "Buy coffee."
+   - **Your Toncoin Wallet:** Enter your wallet address to receive payments.
+   - **Currency:** Choose the currency in which you want to receive payments (EUR, USD, RUB, BYN, BGN, GBP, etc.). This is necessary for automatic conversion of the amount into TonCoin based on the current exchange rate, which is updated every 3 hours via coinmarketcap.com.
+   - **Service Currency Price:** Specify the price in the selected currency that the client needs to pay. After scanning the QR code, the client will be prompted with the equivalent amount in TonCoin.
+   - **Relay Work Time:** Specify how long the relay should be activated. This can be from one second (e.g., to simulate a button press) to several minutes or hours.
+     
+     <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/APFull.png" width="500px">
 
-### Инструкции для самостоятельной сборки:
+### Instructions for DIY Assembly:
 
-Для самостоятельной сборки устройства вам потребуется устойство smalltv. Обратите внимание есть еще smalltv-ultra и smalltv-pro они внешне одинаковы, но отличаются по внутренней начинке. Проект работает только на smalltv. Дополнительно вам понадобятся:
-- Реле-модуль на 5V для Arduino
-- Программатор (например, TZT CH340 Module Instead of PL2303 CH340G RS232 to TTL)
-- Паяльник и провода
+For DIY assembly, you will need a smalltv device. Note that there are also smalltv-ultra and smalltv-pro, which look the same but differ internally. The project only works on smalltv. Additionally, you will need:
+- 5V Relay Module for Arduino
+- Soldering iron and wires
 
-На фото ниже показано, как должно быть все припаяно:
+The image below shows how everything should be soldered:
 
-{{ФОТО}}
+  <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/flash_gpio2.jpeg" width="500px">
 
-Скачайте файл fireware.bin и загрузите его на ноутбук или телефон. Далее с этого устройства подключитель к WiFi гаджета которое будет называться GIFTV далее обязательно открыть браузер и в нем набрать http://192.168.4.1/update
-выберите скачанный ранее файл fireware.bin и нажмите Upload... 
-После этого следуйте инструкциям из пунктов 1 “Подключение устройства” и 2 “Настройки устройства”.
+Download the file [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) and upload it to your laptop or phone. Then, connect to the WiFi of the gadget, which will be named GIFTV. Next, open a browser and go to http://192.168.4.1/update, select the previously downloaded file [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin), and click Upload... 
+After this, follow the instructions from steps 1 “Connecting the Device” and 2 “Configuring the Device.”
 
-Удачи! Если у вас возникнут вопросы, не стесняйтесь обращаться ко мне.
+Good luck! If you have any questions, feel free to contact me.
 
-Важно: Обратите внимание, что каждый 20-й платеж автоматически переводится на мой кошелек TonCoin в качестве небольшого доната за проект. Если вы хотите изменить это и предложить другой способ, пожалуйста, свяжитесь со мной.
+Important: Please note that every 20th payment is automatically transferred to my TonCoin wallet as a small donation for the project. If you wish to change this or propose another method, please contact me.
 
-# Upload instruction
+# For Advanced Users: Instructions for Flashing via Programmer
 
-### Specification .bin files
+### Specification of .bin Files
 ```
   -  Module: Generic ESP8266 Module
   -  Flash Size: 1M
@@ -51,18 +56,15 @@
   -  Upload Speed: 921600
 ```
 
-## [Download esp8266-Radio.ino.generic.bin](https://github.com/renat2985/esp8266-Radio/raw/master/esp8266-Radio.ino.generic.bin)
+## [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin)
 
-![nodemcu-flasher](https://raw.githubusercontent.com/renat2985/esp8266-Radio/master/tutorial/nodemcu-flasher.png)
 ### NodeMCU Flasher
 https://github.com/nodemcu/nodemcu-flasher
 Download Release: [Win32](https://github.com/nodemcu/nodemcu-flasher/blob/master/Win32/Release/ESP8266Flasher.exe) or [Win64](https://github.com/nodemcu/nodemcu-flasher/blob/master/Win64/Release/ESP8266Flasher.exe).
 
-
-
 ## :battery: Donation
 
-If you like this project, you can give me a cup of coffee :coffee:
+If you like this project, you can buy me a cup of coffee :coffee:
 
 - Bitcoin (BTC): 19xg6pA4RzSW3o4ZUyTyn5t4tY3tqLXHbe
 - TonCoin: UQBY_xXK_25L-UHq_h2ocfhS0c_lZoA4PIHxt-SktxLa_So7 
