@@ -5,15 +5,19 @@
 
 Вы можете собрать устройство самостоятельно или попросить это сделать меня для вас. Для заказа готового устройства свяжитесь через Telegram или Skype: renat2985.
 
+<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/1.webp" width="200px" style="float:left">
+<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/2.webp" width="200px" style="float:left">
+<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/3.webp" width="200px" style="float:left">
+
 ### Основные функции:
 
 1. **Подключение устройства:**
    - При первом включении или если устройство не может найти роутер, оно создаст точку доступа с именем "TonCoin payment".
      
-     <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/WiFi.png" width="200px" style="float:left">
+     <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/WiFi.png" width="200px">
    - Подключитесь к этой точке (пароль не требуется) и откройте браузер, где введите http://192.168.4.1. Обычно после подключения к Wi-Fi автоматически откроется Activ portal, который перенаправит вас на нужную страницу.
      
-     <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/AP1.png" width="300px" style="float:left">
+     <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/AP1.png" width="300px">
    - Нажмите "Configure WiFi" для настройки.
 
 2. **Настройка устройства:**
