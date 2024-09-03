@@ -6,7 +6,7 @@
 A convenient and fast way to implement paid services using the TonCoin cryptocurrency. The process is simple: You open any crypto wallet, scan the QR code, transfer the specified amount, and once the payment is received, the relay is activated and turns on your device for the time you set. This can be any device, from a kettle, coffee machine, and light bulb to powering a room or any other location.
 
 You can assemble the device yourself or ask me to do it for you. To order a ready-made device, contact me via 
-[Telegram](https://t.me/ESPiotDevice), [Skype](skype:renat2985).
+[Telegram](https://t.me/ESPiotDevice), Skype: renat2985
 
 <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/intro.png">
 
