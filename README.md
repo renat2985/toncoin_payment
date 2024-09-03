@@ -1,6 +1,7 @@
-# Payment for Your Services via TonCoin
+[Русская версия документации здесь](https://github.com/renat2985/toncoin_payment/blob/main/README_RU.md)
 
-[Русская версия документации](https://github.com/renat2985/toncoin_payment/raw/main/README_RU.md)
+
+# Payment for Your Services via TonCoin
 
 A convenient and fast way to implement paid services using the TonCoin cryptocurrency. The process is simple: You open any crypto wallet, scan the QR code, transfer the specified amount, and once the payment is received, the relay is activated and turns on your device for the time you set. This can be any device, from a kettle, coffee machine, and light bulb to powering a room or any other location.
 
