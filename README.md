@@ -7,16 +7,14 @@ A convenient and fast way to implement paid services using the TonCoin cryptocur
 
 You can assemble the device yourself or ask me to do it for you. To order a ready-made device, contact me via Telegram or Skype: renat2985.
 
-<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/1.webp" width="200px" style="float:left">
-<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/2.webp" width="200px" style="float:left">
-<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/3.webp" width="200px" style="float:left">
+<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/intro.png" width="400px">
 
 ### Main Features:
 
 1. **Connecting the Device:**
    - On the first power-up or if the device cannot find the router, it will create an access point named "TonCoin payment."
      
-     <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/WiFi.png" width="200px"
+     <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/WiFi.png" width="200px">
    - Connect to this access point (no password required) and open a browser, where you enter http://192.168.4.1. Typically, after connecting to Wi-Fi, the Captive Portal will automatically open and redirect you to the required page.
      
      <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/AP1.png" width="300px">

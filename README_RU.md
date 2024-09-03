@@ -5,9 +5,7 @@
 
 Вы можете собрать устройство самостоятельно или попросить это сделать меня для вас. Для заказа готового устройства свяжитесь через Telegram или Skype: renat2985.
 
-<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/1.webp" width="200px" style="float:left">
-<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/2.webp" width="200px" style="float:left">
-<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/3.webp" width="200px" style="float:left">
+<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/intro.png" width="400px">
 
 ### Основные функции:
 
