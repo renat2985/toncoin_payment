@@ -6,7 +6,7 @@
     {
       "chipFamily": "ESP8266",
       "parts": [
-        { "path": "/build/esp8266.esp8266.generic/toncoin_payment.ino.bin", "offset": 0 }
+        { "path": "./build/esp8266.esp8266.generic/toncoin_payment.ino.bin", "offset": 0 }
       ]
     }
   ]
