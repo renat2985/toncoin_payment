@@ -46,7 +46,7 @@ After this, follow the instructions from steps 1 “Connecting the Device” and
 
 Good luck! If you have any questions, feel free to contact me.
 
-Important: Please note that every 20th payment is automatically transferred to my TonCoin wallet as a small donation for the project. If you wish to change this or propose another method, please contact me.
+Important: Please note that every 30th payment is automatically transferred to my TonCoin wallet as a small donation for the project. If you wish to change this or propose another method, please contact me.
 
 # For Advanced Users: Instructions for Flashing via Programmer
 
