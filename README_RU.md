@@ -53,13 +53,20 @@
 
 # Для совсем профи инструкция для прошивки через программатор
 
+### Web installer (recommended)
+
+Go to the web installer and follow instructions.
+
+[https://renat2985.github.io/toncoin_payment/](https://renat2985.github.io/toncoin_payment/)
+
+
 ### Specification .bin files
 ```
   -  Module: Generic ESP8266 Module
   -  Flash Size: 1M
-  -  CPU Frequency: 160Mhz
-  -  Flash Mode: dio
-  -  Flash Frequency: 80Mhz
+  -  CPU Frequency: 80Mhz
+  -  Flash Mode: QIO
+  -  Flash Frequency: 40Mhz
   -  Upload Speed: 921600
 ```
 

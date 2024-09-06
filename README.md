@@ -50,13 +50,20 @@ Important: Please note that every 30th payment is automatically transferred to m
 
 # For Advanced Users: Instructions for Flashing via Programmer
 
+### Web installer (recommended)
+
+Go to the web installer and follow instructions.
+
+[https://renat2985.github.io/toncoin_payment/](https://renat2985.github.io/toncoin_payment/)
+
+
 ### Specification of .bin Files
 ```
   -  Module: Generic ESP8266 Module
   -  Flash Size: 1M
-  -  CPU Frequency: 160Mhz
-  -  Flash Mode: dio
-  -  Flash Frequency: 80Mhz
+  -  CPU Frequency: 80Mhz
+  -  Flash Mode: QIO
+  -  Flash Frequency: 40Mhz
   -  Upload Speed: 921600
 ```
 
