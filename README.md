@@ -1,12 +1,12 @@
 [🇷🇺 Русская версия документации здесь](https://github.com/renat2985/toncoin_payment/blob/main/README_RU.md)
 
+# :warning: The project is not ready yet. It does not work. The first version will be released at the end of September. **:warning:
 
 # Payment for Your Services via TonCoin
 
 A convenient and fast way to implement paid services using the TonCoin cryptocurrency. The process is simple: You open any crypto wallet, scan the QR code, transfer the specified amount, and once the payment is received, the relay is activated and turns on your device for the time you set. This can be any device, from a kettle, coffee machine, and light bulb to powering a room or any other location.
 
-You can assemble the device yourself or ask me to do it for you. To order a ready-made device, contact me via 
-[Telegram](https://t.me/ESPiotDevice), Skype: renat2985
+You can assemble the device yourself or ask to do it for you. To order a ready-made device, contact me via [Telegram](https://t.me/ESPiotDevice), [Skype](https://skype:renat2985?chat), [Discord](https://discord.com/invite/zaGaDuGe).
 
 <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/intro.png">
 
@@ -57,17 +57,15 @@ Go to the web installer and follow instructions.
 [https://renat2985.github.io/toncoin_payment/](https://renat2985.github.io/toncoin_payment/)
 
 
-### Specification of .bin Files
+### Specification of [ESP8266.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) / [ESP8285.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.esp8285/toncoin_payment.ino.bin) Files
 ```
   -  Module: Generic ESP8266 Module
   -  Flash Size: 1M
   -  CPU Frequency: 80Mhz
-  -  Flash Mode: QIO
+  -  Flash Mode: DOUT
   -  Flash Frequency: 40Mhz
   -  Upload Speed: 921600
 ```
-
-## [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin)
 
 ### NodeMCU Flasher
 https://github.com/nodemcu/nodemcu-flasher

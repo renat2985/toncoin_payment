@@ -1,9 +1,12 @@
 
+# :warning: Проект еще не готов. Он не работает. Первая версия выйдет в конце сентября. **:warning:
+
 # Оплата ваших услуг через TonCoin
 
  Удобный и быстрый способ внедрения платных услуг с использованием криптовалюты TonCoin. Процесс простой: Вы открываете любой крипто кошелек, сканируете QR-код, переводите указанную сумму, и как только платеж будет получен, реле активируется и включит ваш прибор на заданное вами время. Это может быть любой прибор, от чайника, кофемашины и лампочки до включения электричества в помещение или любом другом месте.
 
-Вы можете собрать устройство самостоятельно или попросить это сделать меня для вас. Для заказа готового устройства свяжитесь через [Telegram](https://t.me/ESPiotDevice), Skype: renat2985
+Вы можете собрать устройство самостоятельно или попросить это сделать для вас. Для заказа готового устройства свяжитесь через [Telegram](https://t.me/ESPiotDevice), [Skype](https://skype:renat2985?chat), [Discord](https://discord.com/invite/zaGaDuGe).
+
 
 <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/intro.png">
 
@@ -60,17 +63,15 @@ Go to the web installer and follow instructions.
 [https://renat2985.github.io/toncoin_payment/](https://renat2985.github.io/toncoin_payment/)
 
 
-### Specification .bin files
+### Specification [ESP8266.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) / [ESP8285.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.esp8285/toncoin_payment.ino.bin)  files
 ```
   -  Module: Generic ESP8266 Module
   -  Flash Size: 1M
   -  CPU Frequency: 80Mhz
-  -  Flash Mode: QIO
+  -  Flash Mode: DOUT
   -  Flash Frequency: 40Mhz
   -  Upload Speed: 921600
 ```
-
-## [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin)
 
 ### NodeMCU Flasher
 https://github.com/nodemcu/nodemcu-flasher
