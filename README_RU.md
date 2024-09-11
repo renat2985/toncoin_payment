@@ -1,6 +1,3 @@
-
-# :warning: Проект еще не готов. Он не работает. Первая версия выйдет в конце сентября. **:warning:
-
 # Оплата ваших услуг через TonCoin
 
  Удобный и быстрый способ внедрения платных услуг с использованием криптовалюты TonCoin. Процесс простой: Вы открываете любой крипто кошелек, сканируете QR-код, переводите указанную сумму, и как только платеж будет получен, реле активируется и включит ваш прибор на заданное вами время. Это может быть любой прибор, от чайника, кофемашины и лампочки до включения электричества в помещение или любом другом месте.
@@ -8,7 +5,7 @@
 Вы можете собрать устройство самостоятельно или попросить это сделать для вас. Для заказа готового устройства свяжитесь через [Telegram](https://t.me/ESPiotDevice), [Skype](https://skype:renat2985?chat), [Discord](https://discord.com/invite/zaGaDuGe).
 
 
-<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/intro.png">
+<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/intro3.png">
 
 ### Основные функции:
 
@@ -37,8 +34,8 @@
 
 ### Инструкции для самостоятельной сборки:
 
-Для самостоятельной сборки устройства вам потребуется устойство smalltv. Обратите внимание есть еще smalltv-ultra и smalltv-pro они внешне одинаковы, но отличаются по внутренней начинке. Проект работает только на smalltv. Дополнительно вам понадобятся:
-- Реле-модуль на 5V для Arduino
+Для самостоятельной сборки устройства вам потребуется устойство smalltv или smalltv-ultra. Обратите внимание есть еще smalltv-pro они внешне одинаковы, но отличаются по внутренней начинке. Проект работает только на smalltv, smalltv-ultra. Дополнительно вам понадобятся:
+- Реле-модуль на 5V и ULN2003(смотри фото) или 5V Relay Arduino module
 - Паяльник и провода
 
 На фото ниже показано, как должно быть все припаяно:
@@ -48,6 +45,9 @@
 
 Скачайте файл  [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) и загрузите его на ноутбук или телефон. Далее с этого устройства подключитель к WiFi гаджета которое будет называться GIFTV далее обязательно открыть браузер и в нем набрать http://192.168.4.1/update
 выберите скачанный ранее файл [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) и нажмите Upload... 
+
+  <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/flashing.png" width="200px">
+
 После этого следуйте инструкциям из пунктов 1 “Подключение устройства” и 2 “Настройки устройства”.
 
 Удачи! Если у вас возникнут вопросы, не стесняйтесь обращаться ко мне.
@@ -66,7 +66,7 @@ Go to the web installer and follow instructions.
 ### Specification [ESP8266.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) / [ESP8285.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.esp8285/toncoin_payment.ino.bin)  files
 ```
   -  Module: Generic ESP8266 Module
-  -  Flash Size: 1M
+  -  Flash Size: 4M
   -  CPU Frequency: 80Mhz
   -  Flash Mode: DOUT
   -  Flash Frequency: 40Mhz
