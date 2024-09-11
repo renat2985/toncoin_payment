@@ -37,11 +37,11 @@ For DIY assembly, you will need a smalltv or smalltv-ultra device. Note that the
 
 The image below shows how everything should be soldered:
 
-  <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/flash_gpio2.jpeg" width="500px">
+  <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/soldering.jpg" width="500px">
 
 Download the file [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) and upload it to your laptop or phone. Then, connect to the WiFi of the gadget, which will be named GIFTV. Next, open a browser and go to http://192.168.4.1/update, select the previously downloaded file [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin), and click Upload... 
 
-  <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/flashing.png" width="200px">
+  <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/flashing.png" width="400px">
 
 After this, follow the instructions from steps 1 “Connecting the Device” and 2 “Configuring the Device.”
 
