@@ -41,12 +41,12 @@
 На фото ниже показано, как должно быть все припаяно:
 
 
-  <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/soldering.jpg" width="500px">
+  <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/soldering.jpg" width="300px">
 
 Скачайте файл  [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) и загрузите его на ноутбук или телефон. Далее с этого устройства подключитель к WiFi гаджета которое будет называться GIFTV далее обязательно открыть браузер и в нем набрать http://192.168.4.1/update
 выберите скачанный ранее файл [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) и нажмите Upload... 
 
-  <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/flashing.png" width="400px">
+  <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/flashing.png" width="500px">
 
 После этого следуйте инструкциям из пунктов 1 “Подключение устройства” и 2 “Настройки устройства”.
 
