@@ -8,7 +8,7 @@ You can assemble the device yourself or ask to do it for you. To order a ready-m
 We have a similar project based on Sonoff, [check it out](https://github.com/renat2985/toncoin_payment_sonoff).
 
 
-[![IMAGE ALT TEXT HERE](https://github.com/renat2985/toncoin_payment/blob/main/doc/intro3.png)](https://www.youtube.com/watch?v=zKdVJmzJNLM&list=PL6NJTNxbvy-LpsI6D_1RM6v5YWDvsm5j4)
+[![IMAGE ALT TEXT HERE](https://github.com/renat2985/toncoin_payment/blob/main/doc/intro4.png)](https://www.youtube.com/watch?v=zKdVJmzJNLM&list=PL6NJTNxbvy-LpsI6D_1RM6v5YWDvsm5j4)
 
 ### Main Features:
 
