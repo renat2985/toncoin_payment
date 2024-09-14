@@ -3,7 +3,7 @@
  Удобный и быстрый способ внедрения платных услуг с использованием криптовалюты TonCoin. Процесс простой: Вы открываете любой крипто кошелек, сканируете QR-код, переводите указанную сумму, и как только платеж будет получен, реле активируется и включит ваш прибор на заданное вами время. Это может быть любой прибор, от чайника, кофемашины и лампочки до включения электричества в помещение или любом другом месте.
 
 Вы можете собрать устройство самостоятельно или попросить это сделать для вас. Для заказа готового устройства свяжитесь через [Telegram](https://t.me/ESPiotDevice), [Skype](https://skype:renat2985?chat), [Discord](https://discord.com/invite/zaGaDuGe).
-
+У нас есть похожий проект на базе Sonoff, [посмотри](https://github.com/renat2985/toncoin_payment_sonoff).
 
 <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/intro3.png">
 
@@ -22,8 +22,10 @@
    - **Роутер и пароль:** Введите данные для подключения к вашему Wi-Fi.
    - **Device Name:** Укажите имя устройства, например, "Buy coffee".
    - **Your Toncoin Wallet:** Введите адрес вашего кошелька для приема платежей.
+   - **CoinMarketCap API:** Это сервис, который позволяет получать текущую цену TonCoin в фиатной валюте. Для тестирования можно не менять API, но если вы планируете использовать устройство на постоянной основе, настоятельно рекомендуется зарегистрироваться на сайте [CoinMarketCap](https://coinmarketcap.com/api/) и получить свой собственный API. Т.к. бесплатная версия позволяет делать до 10 000 запросов в месяц на получение цены. Для 10 устройств этого вполне достаточно, но если наше API будет использоваться большим количеством устройств, не все смогут получать актуальную цену, и в результате оплата может не пройти.
    - **Сurrency:** Выберите валюту, в которой хотите получать оплату (EUR, USD, RUB, BYN, BGN, GBP и др.). Это необходимо для автоматической конвертации суммы в TonCoin на основе текущего курса, который обновляется каждые 3 часа через coinmarketcap.com.
    - **Service Currency Price:** Укажите цену в выбранной валюте, которую клиент должен оплатить. После сканирования QR-кода клиенту будет предложена эквивалентная сумма в TonCoin.
+   - **Payment Tolerance:** В этой ячейке указывается допустимая погрешность в цене. Поскольку стоимость Ton подвержена колебаниям, здесь нужно указать допустимое отклонение (в виде одной цифры), которое вы готовы принять при оплате. Это нужно для случаев, когда человек не будет сканировать QR-код, а попытается отправить указанную сумму вручную в фиатной валюте.
    - **Relay Work Time:** Укажите, на сколько секунд должно включиться реле. Это может быть от одной секунды (например, для имитации нажатия кнопки) до нескольких минут или часов.
      
      <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/APFull.png" width="500px">
@@ -64,7 +66,7 @@ Go to the web installer and follow instructions.
 [https://renat2985.github.io/toncoin_payment/](https://renat2985.github.io/toncoin_payment/)
 
 
-### Specification [ESP8266.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) / [ESP8285.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.esp8285/toncoin_payment.ino.bin)  files
+### Specification of [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) file
 ```
   -  Module: Generic ESP8266 Module
   -  Flash Size: 4M
