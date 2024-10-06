@@ -59,12 +59,12 @@ Important: Please note that every 30th payment is automatically transferred to m
 
 ### Web installer (recommended)
 
-Go to the web installer and follow instructions.
+### Go to the web installer and follow instructions.
 
-[https://renat2985.github.io/toncoin_payment/](https://renat2985.github.io/toncoin_payment/)
+### [https://renat2985.github.io/toncoin_payment/](https://renat2985.github.io/toncoin_payment/)
 
 
-### Specification of [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) file
+Specification of [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) file
 ```
   -  Module: Generic ESP8266 Module
   -  Flash Size: 4M
