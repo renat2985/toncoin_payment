@@ -5,7 +5,7 @@
 A convenient and fast way to implement paid services using the TonCoin cryptocurrency. The process is simple: You open any crypto wallet, scan the QR code, transfer the specified amount, and once the payment is received, the relay is activated and turns on your device for the time you set. This can be any device, from a kettle, coffee machine, and light bulb to powering a room or any other location.
 
 You can assemble the device yourself or ask to do it for you. To order a ready-made device, contact me via [Telegram](https://t.me/ESPiotDevice), [Skype](https://skype:renat2985?chat), [Discord](https://discord.com/invite/zaGaDuGe).
-We have a similar project based on Sonoff, [check it out](https://github.com/renat2985/toncoin_payment_sonoff).
+We have a similar project based on [Sonoff](https://github.com/renat2985/toncoin_payment_sonoff), [ESP32 C3 MINI 1.69inch LCD](https://github.com/renat2985/crypto_payment_touchScreen).
 
 
 [![IMAGE ALT TEXT HERE](https://github.com/renat2985/toncoin_payment/blob/main/doc/intro4.png)](https://www.youtube.com/watch?v=zKdVJmzJNLM&list=PL6NJTNxbvy-LpsI6D_1RM6v5YWDvsm5j4)
@@ -53,15 +53,14 @@ After this, follow the instructions from steps 1 “Connecting the Device” and
 
 Good luck! If you have any questions, feel free to contact me.
 
-Important: Please note that every 30th payment is automatically transferred to my TonCoin wallet as a small donation for the project. If you wish to change this or propose another method, please contact me.
 
 # For Advanced Users: Instructions for Flashing via Programmer
 
-### Web installer (recommended)
+## Web installer (recommended)
 
-### Go to the web installer and follow instructions.
+## Go to the web installer and follow instructions.
 
-### [https://renat2985.github.io/toncoin_payment/](https://renat2985.github.io/toncoin_payment/)
+## [https://renat2985.github.io/toncoin_payment/](https://renat2985.github.io/toncoin_payment/)
 
 
 Specification of [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) file
