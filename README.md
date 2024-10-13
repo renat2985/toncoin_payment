@@ -35,7 +35,7 @@ We have a similar project based on [Sonoff](https://github.com/renat2985/toncoin
 
 ### Instructions for DIY Assembly:
 
-For DIY assembly, you will need a smalltv or smalltv-ultra device. Note that there are also smalltv-pro, which look the same but differ internally. The project only works on smalltv, smalltv-ultra. Additionally, you will need:
+For DIY assembly, you will need a [smalltv or smalltv-ultra](https://www.aliexpress.com/w/wholesale-smalltv-wifi.html) device. Note that there are also smalltv-pro, which look the same but differ internally. The project only works on smalltv, smalltv-ultra. Additionally, you will need:
 - 5V Relay Module and ULN2003(look photo) or 5V Relay Arduino module
 - Soldering iron and wires
 
