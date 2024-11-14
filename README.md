@@ -5,8 +5,12 @@
 A convenient and fast way to implement paid services using the TonCoin cryptocurrency. The process is simple: You open any crypto wallet, scan the QR code, transfer the specified amount, and once the payment is received, the relay is activated and turns on your device for the time you set. This can be any device, from a kettle, coffee machine, and light bulb to powering a room or any other location.
 
 You can assemble the device yourself or ask to do it for you. To order a ready-made device, contact me via [Telegram](https://t.me/ESPiotDevice), [Skype](https://skype:renat2985?chat), [Discord](https://discord.com/invite/zaGaDuGe).
-We have a similar project based on [Sonoff](https://github.com/renat2985/toncoin_payment_sonoff), [ESP32 C3 MINI 1.69inch LCD](https://github.com/renat2985/crypto_payment_touchScreen).
 
+We have a similar project with a display, [check it out](https://github.com/renat2985/crypto_payment_touchScreen), and also based on Sonoff:
+
+- [Sonoff for Toncoin (toncenter.com)](https://github.com/renat2985/toncoin_payment_sonoff)
+
+- [Sonoff for Toncoin, Solana (tatum.io)](https://github.com/renat2985/crypto_payment_sonoff)
 
 [![IMAGE ALT TEXT HERE](https://github.com/renat2985/toncoin_payment/blob/main/doc/intro4.png)](https://www.youtube.com/watch?v=zKdVJmzJNLM&list=PL6NJTNxbvy-LpsI6D_1RM6v5YWDvsm5j4)
 
@@ -81,6 +85,6 @@ Download Release: [Win32](https://github.com/nodemcu/nodemcu-flasher/blob/master
 
 If you like this project, you can buy me a cup of coffee :coffee:
 
-<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/donate.png" width="700px">
+<img src="https://github.com/renat2985/renat2985/raw/main/donate/donate.png" width="100%">
 
 - PayPal [https://www.paypal.me/RKevrels](https://www.paypal.me/RKevrels/5)
