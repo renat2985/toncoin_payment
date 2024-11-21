@@ -52,6 +52,8 @@
 
 <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/soldering.jpg" width="300px">
 
+# Установка (recommended)
+
 Скачайте файл  [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) и загрузите его на ноутбук или телефон. Далее с этого устройства подключитель к WiFi гаджета которое будет называться GIFTV далее обязательно открыть браузер и в нем набрать http://192.168.4.1/update
 выберите скачанный ранее файл [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) и нажмите Upload... 
 
@@ -63,14 +65,15 @@
 
 # Для совсем профи инструкция для прошивки через программатор
 
-## Web installer (recommended)
+## Web installer
 
-### Go to the web installer and follow instructions.
+Go to the web installer and follow instructions.
 
 ## [https://renat2985.github.io/toncoin_payment/](https://renat2985.github.io/toncoin_payment/)
 
+### NodeMCU Flasher
 
-Specification of [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) file
+Specification of [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) file.
 ```
   -  Module: Generic ESP8266 Module
   -  Flash Size: 4M
@@ -80,7 +83,6 @@ Specification of [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_
   -  Upload Speed: 921600
 ```
 
-### NodeMCU Flasher
 https://github.com/nodemcu/nodemcu-flasher
 Download Release: [Win32](https://github.com/nodemcu/nodemcu-flasher/blob/master/Win32/Release/ESP8266Flasher.exe) or [Win64](https://github.com/nodemcu/nodemcu-flasher/blob/master/Win64/Release/ESP8266Flasher.exe).
 
