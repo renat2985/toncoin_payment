@@ -8,7 +8,7 @@
 
 - [Sonoff for Toncoin (toncenter.com)](https://github.com/renat2985/toncoin_payment_sonoff)
 
-- [Sonoff for Toncoin, Solana (tatum.io)](https://github.com/renat2985/crypto_payment_sonoff)
+- [Sonoff for Toncoin, Solana, Cosmos, Algorand (tatum.io)](https://github.com/renat2985/crypto_payment_sonoff)
 
 
 [![IMAGE ALT TEXT HERE](https://github.com/renat2985/toncoin_payment/blob/main/doc/intro4.png)](https://www.youtube.com/watch?v=zKdVJmzJNLM&list=PL6NJTNxbvy-LpsI6D_1RM6v5YWDvsm5j4)
@@ -48,8 +48,8 @@
 
 На фото ниже показано, как должно быть все припаяно:
 
-<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/connect.png" width="300px">
-<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/connect2.png" width="300px">
+<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/connect.png" height="300px"> <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/connect2.png" height="300px">
+
 <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/soldering.jpg" width="300px">
 
 Скачайте файл  [toncoin_payment.ino.bin](https://github.com/renat2985/toncoin_payment/raw/main/build/esp8266.esp8266.generic/toncoin_payment.ino.bin) и загрузите его на ноутбук или телефон. Далее с этого устройства подключитель к WiFi гаджета которое будет называться GIFTV далее обязательно открыть браузер и в нем набрать http://192.168.4.1/update
@@ -65,7 +65,7 @@
 
 ## Web installer (recommended)
 
-## Go to the web installer and follow instructions.
+### Go to the web installer and follow instructions.
 
 ## [https://renat2985.github.io/toncoin_payment/](https://renat2985.github.io/toncoin_payment/)
 
