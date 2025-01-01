@@ -1,0 +1,21 @@
+# Исключаем eerom.ino
+eerom.ino
+
+# Исключаем toncoin_payment.ino
+toncoin_payment.ino
+
+# Исключаем файл .elf для проекта toncoin_payment
+build/esp8266.esp8266.generic/toncoin_payment.ino.elf
+
+# Исключаем файл .map для проекта toncoin_payment
+build/esp8266.esp8266.generic/toncoin_payment.ino.map
+
+# Исключаем onclick.lv для проекта toncoin_payment
+onclick.lv/*
+
+# Игнорируем файл .DS_Store в любой директории
+.DS_Store
+
+User_Setup.h
+qrcode_espi.cpp
+qrcode_espi.h

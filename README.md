@@ -45,7 +45,9 @@ For DIY assembly, you will need a [smalltv or smalltv-ultra](https://www.aliexpr
 
 The image below shows how everything should be soldered:
 
-<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/connect.png" height="300px"> <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/connect2.png" height="300px">
+<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/connect-relay.png" height="200px"> <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/connect-uln2003.png" height="200px"> <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/connect-uln2003-led.png" height="200px">
+
+<img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/soldering.jpg" width="300px">
 
 <img src="https://github.com/renat2985/toncoin_payment/blob/main/doc/soldering.jpg" width="300px">
 
